@@ -1,0 +1,4 @@
+2011-12-12  David Burns v0.0.1
+
+	* Initial creation of app. Store data in ~/.tasks and allow the viewing and removing of tasks
+
