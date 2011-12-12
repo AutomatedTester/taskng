@@ -1,0 +1,20 @@
+{
+    "name": "taskng"
+  , "version": "0.0.1"
+  , "description": "A simple CLI based task management tool"
+  , "keywords": ["task","management", "cli"]
+  , "author": "David Burns"
+  , "dependencies": {
+      "nomnom": "1.5.1"
+    }
+  , "repository": {
+        "type": "git",
+        "url": "http://github.com/automatedtester/taskng.git"
+  }    
+  , "bin": {
+        "tng": "./bin/main.js",
+        "t": "./bin/main.js"
+    }
+  , "main": "./bin/main.js"
+  , "preferGlobal" : "true"
+}
