@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Courier New";
+}
+
+a {
+  color: #00B7FF;
+}
+
+pre {
+  box-shadow: 0pt 0pt 10px rgb(238, 238, 238) inset;
+  margin: 10px;
+  padding: 10px;
+  font: 12px monaco, monospace;
+  border-color: rgb(238, 238, 238) rgb(238, 238, 238) rgb(221, 221, 221);
+}
+
+.visimg {
+  margin: 30px;
+  padding: 1px;
+  box-shadow:0pt 3px 10px rgb(222, 222, 222), 0pt 1px 5px rgb(136, 136, 136);
+  max-width:100%;
+}
