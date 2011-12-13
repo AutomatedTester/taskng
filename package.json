@@ -2,6 +2,7 @@
     "name": "taskng"
   , "version": "0.0.1"
   , "description": "A simple CLI based task management tool"
+  , "homepage" : "http://automatedtester.github.com/taskng"
   , "keywords": ["task","management", "cli"]
   , "author": "David Burns"
   , "dependencies": {

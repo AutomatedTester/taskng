@@ -33,3 +33,6 @@ This will store the item in the task list
 
 #### `t -p 2` or `tng -p 2`
 This will remove the 2nd item in the list. The number from the list starts at 1.
+
+## Documentation
+A nicer set of documents is available (here)[http://automatedtester.github.com/taskng]
