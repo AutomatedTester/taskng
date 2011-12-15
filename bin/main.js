@@ -12,6 +12,11 @@ var options = nomnom.options({
         abbr: 'p'
         , help: "removes an item from your task list"
       }
+      , version: {
+        flag: true
+        , abbr: 'v'
+        , help: "writes the version to the screen"
+      }
     }).parse();
 
 
@@ -19,10 +24,14 @@ var taskng = new TaskNG();
 if (options._.length != 0) {
  taskng.add(options._.join(' '));
 } 
-if (options._.length === 0 && !options.pop){ 
+if (options._.length === 0 && !options.pop && !options.version){ 
   taskng.view();
 }
 
 if (options.pop){
   taskng.pop(options.pop);
+}
+
+if (options.version){
+  console.log("TaskNG Version 0.1.0");
 }
