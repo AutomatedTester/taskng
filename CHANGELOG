@@ -1,3 +1,10 @@
+2011-12-15	David Burns v0.1.0
+
+	* Fixed if you install and try view tasks and the file doesnt exist (#1)
+	* Added numbers next to task to making removing easier (#5)
+	* Added version option (#9)
+	* Numerous documentation needs fulfilled
+
 2011-12-12  David Burns v0.0.1
 
 	* Initial creation of app. Store data in ~/.tasks and allow the viewing and removing of tasks
