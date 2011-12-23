@@ -41,5 +41,5 @@ if (options.pop){
 }
 
 if (options.version){
-  console.log("TaskNG Version 0.1.0");
+  console.log("TaskNG Version 0.2.0");
 }
