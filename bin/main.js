@@ -16,6 +16,10 @@ var options = nomnom.options({
         abbr: 'e'
         , help: "edits the task in your list" 
       }
+      , show: {
+        abbr: 's'
+        , help: "show this specific label. To add a label just put : before label. E.g. :foobar"
+      }
       , version: {
         flag: true
         , abbr: 'v'
@@ -28,7 +32,7 @@ var taskng = new TaskNG();
 if (options._.length != 0) {
  taskng.add(options._.join(' '));
 } 
-if (options._.length === 0 && !options.pop && !options.version && !options.edit){ 
+if (options._.length === 0 && !options.pop && !options.version && !options.edit && !options.show){ 
   taskng.view();
 }
 
@@ -38,6 +42,10 @@ if (options.edit){
 
 if (options.pop){
   taskng.pop(options.pop);
+}
+
+if (options.show){
+  taskng.show(options.show);
 }
 
 if (options.version){
