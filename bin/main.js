@@ -28,8 +28,12 @@ var taskng = new TaskNG();
 if (options._.length != 0) {
  taskng.add(options._.join(' '));
 } 
-if (options._.length === 0 && !options.pop && !options.version){ 
+if (options._.length === 0 && !options.pop && !options.version && !options.edit){ 
   taskng.view();
+}
+
+if (options.edit){
+  taskng.edit(options.edit, options._.join(' '));
 }
 
 if (options.pop){
