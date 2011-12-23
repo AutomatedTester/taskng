@@ -13,13 +13,17 @@
     <p>
       <pre>
         <code>
-        
+
           usage: node t <note> [options]
 
           note     message that you want to store
 
           options:
-             -p, --pop   removes an item from your task list
+            -p, --pop       removes an item from your task list
+            -e, --edit      edits the task in your list
+            -s, --show      show this specific label. To add a label just put : before label. E.g. :foobar
+            -v, --version   writes the version to the screen
+
         </code>
       </pre>
     </p>
@@ -35,6 +39,20 @@
     <h3>-p, --pop</h3>
     <p>
       This will remove items that are currently in your task list
+    </p>
+    <h3>-e, --edit</h3>
+    <p>
+      This will allow us to edit notes that are already stored
+      <pre>t -e 1 change to this</pre> will change the first item to "change to this"
+    </p>
+    <h3>-s, --show</h3>
+    <p>
+      Use this to show only items for a specific label
+      <pre>t -s foobar</pre> will only show items with :foobar label
+    </p>
+    <h3>-v, --version</h3>
+    <p>
+      Show the current version
     </p>
     <a href="http://github.com/automatedtester/taskng"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/abad93f42020b733148435e2cd92ce15c542d320/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub"></a>
   </body>
