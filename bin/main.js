@@ -12,6 +12,10 @@ var options = nomnom.options({
         abbr: 'p'
         , help: "removes an item from your task list"
       }
+      , edit: {
+        abbr: 'e'
+        , help: "edits the task in your list" 
+      }
       , version: {
         flag: true
         , abbr: 'v'
