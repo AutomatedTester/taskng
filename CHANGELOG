@@ -1,3 +1,9 @@
+2011-12-23	David Burns v0.2.0
+	* Added colours to priorities if it is :p1 or :p2
+	* ability to edit tasks
+	* ability to filter according to labels
+
+
 2011-12-15	David Burns v0.1.0
 
 	* Fixed if you install and try view tasks and the file doesnt exist (#1)
